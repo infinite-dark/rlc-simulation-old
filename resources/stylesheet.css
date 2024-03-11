@@ -1,0 +1,54 @@
+QPushButton, QLabel, QLineEdit, QWidget#form, QTabBar::tab, QProgressBar
+{
+border: 1px solid white;
+color: white;
+font: 12px Arial;
+}
+
+QMainWindow, QPushButton, QLabel
+{
+background-color: black;
+font: 14px Arial;
+}
+
+QPushButton::hover, QTabBar::tab:hover, QTabBar::tab:selected
+{
+background-color: white;
+color: black;
+}
+
+QPushButton::pressed
+{
+background-color: #DDDDDD;
+}
+
+QLineEdit, QProgressBar
+{
+background-color: black;
+font: 20px Arial;
+}
+
+QLineEdit::hover
+{
+background-color: #202020;
+}
+
+QCheckBox
+{
+border: none;
+font: 16px Arial;
+}
+
+QTabWidget
+{
+border: none;
+background-color: #333333;
+}
+
+QTabBar::tab
+{
+background-color: black;
+border-radius: 5px;
+padding: 10px;
+margin: 10px 2px 10px 2px;
+}
